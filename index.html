@@ -12,16 +12,33 @@
 </head>
 
 <body>
-  <main>
+  <main class="main">
+
+    <session class="main--carrousel">
+      <div>
+        <img src="/img/Celular.png" alt="Carrusel de fotos">
+      </div>
+    </session>
+
+
     <section class="main--login">
       <div class="main--title">
         <h1>Instagram</h1>
       </div>
 
       <form action="" class="login--form">
-        <input type="text" placeholder="Teléfono, usuario o correo electrónico" class="form--imput">
-        <input type="password" placeholder="Contraseña" class="form--imput">
-        <button type="button" class="form--button"> Entrar </button>
+        <div class="form--imput--correo form--input--container">
+          <input type="text"  class="form--imput"><span>
+            prueba
+          </span>
+        </div>
+        
+        <div class="form--input--password form--input--container">
+          <input type="password"  class="form--imput">
+          <span>prueba</span>
+        </div>
+        
+        <button type="button" class="form--button form--button"> Iniciar sesión </button>
       </form>
 
       <div class="divisor">
@@ -35,7 +52,7 @@
       <div class="login--alternative">
         <a href="/" class="alternative--link alternative--link__bold"> Iniciar session con facebook </a>
         <a href="/" class="alternative--link alternative--link__small"> ¿Has olvidado la contraseña? </a>
-        <p class="alternative--paragraph"> ¿No tienes una cuenta? <a href="" class="alternative--blue">Registrate </a>
+        <p class="alternative--paragraph"> ¿No tienes una cuenta? <a href="" class="alternative--blue alternative--link--blue">Registrate </a>
         </p>
       </div>
 
@@ -44,12 +61,12 @@
         <ul class="links--list">
           <li>
             <a href="/">
-              <img src="" alt="">
+              <img src="/img/google_play.png" alt="Imagen de google play">
             </a>
           </li>
           <li>
             <a href="/">
-              <img src="" alt="">
+              <img src="/img/microsoft.png" alt="imagen de microsoft">
             </a>
           </li>
         </ul>
